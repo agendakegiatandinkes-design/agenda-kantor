@@ -62,7 +62,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # =========================
-# GANTI DENGAN LINK GOOGLE SHEET ANDA
+# "https://docs.google.com/spreadsheets/d/1sak_dmVop0yWI9tOCtJ_rfqcapUI3CekXGduUHE7sMo/export?format=csv"
 # =========================
 GOOGLE_SHEET_URL="https://docs.google.com/spreadsheets/d/1sak_dmVop0yWI9tOCtJ_rfqcapUI3CekXGduUHE7sMo/export?format=csv"
 
@@ -72,7 +72,7 @@ GOOGLE_SHEET_URL="https://docs.google.com/spreadsheets/d/1sak_dmVop0yWI9tOCtJ_rf
 def convert_google_sheet_url(url):
     try:
         sheet_id = url.split("/d/")[1].split("/")[0]
-        return f"https://docs.google.com/spreadsheets/d/{sheet_id}/export?format=csv"
+        return "https://docs.google.com/spreadsheets/d/{sheet_id}/export?format=csv"
     except IndexError:
         st.error("Format Link Google Sheets tidak valid. Pastikan link disalin dengan benar.")
         st.stop()
