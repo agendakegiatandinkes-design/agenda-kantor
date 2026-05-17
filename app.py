@@ -64,7 +64,7 @@ st.markdown("""
 # =========================
 # "https://docs.google.com/spreadsheets/d/1sak_dmVop0yWI9tOCtJ_rfqcapUI3CekXGduUHE7sMo/export?format=csv"
 # =========================
-GOOGLE_SHEET_URL="https://docs.google.com/spreadsheets/d/1sak_dmVop0yWI9tOCtJ_rfqcapUI3CekXGduUHE7sMo/export?format=csv"
+google_sheet_url="https://docs.google.com/spreadsheets/d/1sak_dmVop0yWI9tOCtJ_rfqcapUI3CekXGduUHE7sMo/export?format=csv"
 
 # =========================
 # KONVERSI LINK GOOGLE SHEET KE CSV
@@ -110,7 +110,7 @@ def load_data():
 # =========================
 # LOAD DATAFRAME EXECUTION
 # =========================
-if GOOGLE_SHEET_URL="https://docs.google.com/spreadsheets/d/1sak_dmVop0yWI9tOCtJ_rfqcapUI3CekXGduUHE7sMo/export?format=csv" 
+  google_sheet_url="https://docs.google.com/spreadsheets/d/1sak_dmVop0yWI9tOCtJ_rfqcapUI3CekXGduUHE7sMo/export?format=csv" 
     st.info("👋 Selamat Datang! Silakan masukkan link Google Sheets Anda pada kode app.py terlebih dahulu.")
     st.stop()
 
